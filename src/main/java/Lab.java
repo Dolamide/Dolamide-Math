@@ -21,17 +21,10 @@ public class Lab {
      * @return return a^b using the pow() method of the Math class.
      */
     public double mathPow(double a, double b){
-        double inputA = a;
-        double inputB = b;
-        // double expected = ab;
-        // double actual = mc.mathPow(inputA, inputB);
-        // Assert.assertEquals(expected, actual)
-        // a = 2;
-        // b = 3;
-        // double expected = 6;
-        // double result = mlab.mathPow(2, 3);
-        // Assert.assertEquals(expected);
+        a = 2;  
+        b = 2;  
+        double result = Math.pow(a, b);
 
-        return 8;
+        return (result);
     }
 }
