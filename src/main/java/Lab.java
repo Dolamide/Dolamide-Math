@@ -21,8 +21,8 @@ public class Lab {
      * @return return a^b using the pow() method of the Math class.
      */
     public double mathPow(double a, double b){
-        a = 2;  
-        b = 2;  
+        // a = 2;  
+        // b = 2;  
         double result = Math.pow(a, b);
 
         return (result);
